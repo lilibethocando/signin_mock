@@ -16,7 +16,7 @@ body, html {
     border-radius: 10px;
     margin-top: 150px;
     margin-left: 35%;
-    margin-right: 35%;
+    margin-right: 29%;
     padding-left: 15px;
     padding-right: 20px;
     padding-top: 25px;
@@ -29,22 +29,6 @@ body, html {
     width: 500px; 
 }
 
-.container input {
-    margin-left: auto;
-    width: 495px;
-}
-
-.container button {
-    width: 500px; 
-    margin-top: 10px; 
-}
-
-.container #forgot-password {
-    display: flex; 
-    align-items: flex-end;
-    flex-direction: column;
- 
-}
 
 .container-2 {
     display: flex; 
@@ -52,8 +36,9 @@ body, html {
     flex-direction: column;
     border: 0px;
     margin-left: 35%;
-    margin-right: 35%;
+    margin-right: 29%;
     text-align: center;
+    margin-top: 20px;
 }
 
 footer {
@@ -70,9 +55,56 @@ footer {
     justify-content: space-around;
     align-items: center;
     border-top: 2px solid black;
+    margin-top: 100px;
     width: 90%;
 }
 
 .footer-p {
-    margin-top: auto; /* Push the paragraph to the bottom of the footer */
+    margin-top: auto; 
+}
+
+
+.container input[type="email"],
+.container input[type="password"] {
+    width: 100%; 
+    margin-top: 5px; 
+    padding: 10px; 
+    box-sizing: border-box; 
+}
+
+
+.container button {
+    width: 100%; 
+    margin-top: 10px; 
+    padding: 10px; 
+    box-sizing: border-box; 
+}
+
+.container-2 button {
+    width: 100%; 
+    margin-top: 10px; 
+    padding: 10px; 
+    box-sizing: border-box; 
+}
+
+.container .form-group label {
+    order: 0; 
+}
+
+
+#input-labels {
+    top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    white-space: nowrap;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 2px;
+
+}
+
+#help::before {
+    content: '\25b8';
+    margin-right: 5px;
 }
