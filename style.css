@@ -24,6 +24,11 @@ body, html {
 
 }
 
+
+.form-group {
+    width: 100%;
+}
+
 .container label {
     margin-left: auto; 
     width: 500px; 
